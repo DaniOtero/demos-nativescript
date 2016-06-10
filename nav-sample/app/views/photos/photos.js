@@ -26,7 +26,7 @@ var BicisModel = (function (_super) {
             _this.notifyPropertyChange('imagesUrls', _this.imagesUrls);
         }).catch(function (error) {
             console.log(error);
-            alert("Algo ha ido mal al hacer la request :(");
+            alert("Something went wrong :(");
         });
     }
     BicisModel.prototype.onListItemTap = function (args) {

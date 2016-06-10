@@ -26,7 +26,7 @@ class BicisModel extends observable.Observable {
 
         }).catch((error) => {
             console.log(error);
-            alert("Algo ha ido mal al hacer la request :(")
+            alert("Something went wrong :(")
         })
     }
 
