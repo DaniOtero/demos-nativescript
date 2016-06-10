@@ -1,0 +1,9 @@
+﻿button, label, stack-layout {
+    horizontal-align: center;
+}
+
+button {
+    font-size: 20;
+    color: black;
+    background-color: red;
+}

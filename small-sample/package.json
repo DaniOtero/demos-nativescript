@@ -1,0 +1,34 @@
+{
+  "description": "NativeScript Application",
+  "license": "SEE LICENSE IN <your-license-filename>",
+  "readme": "NativeScript Application",
+  "repository": "<fill-your-repository-here>",
+  "nativescript": {
+    "id": "org.nativescript.smallsample",
+    "tns-ios": {
+      "version": "2.0.1"
+    },
+    "tns-android": {
+      "version": "2.0.0"
+    }
+  },
+  "dependencies": {
+    "nativescript-unit-test-runner": "^0.3.3",
+    "tns-core-modules": "2.0.1"
+  },
+  "devDependencies": {
+    "babel-traverse": "6.9.0",
+    "babel-types": "6.9.1",
+    "babylon": "6.8.1",
+    "chai": "^3.5.0",
+    "filewalker": "0.1.2",
+    "karma": "^0.13.22",
+    "karma-chai": "^0.1.0",
+    "karma-mocha": "^1.0.1",
+    "karma-nativescript-launcher": "^0.4.0",
+    "lazy": "1.0.11",
+    "mocha": "^2.5.3",
+    "nativescript-dev-typescript": "^0.3.0",
+    "typescript": "^1.8.10"
+  }
+}

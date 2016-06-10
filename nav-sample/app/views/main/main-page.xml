@@ -1,0 +1,9 @@
+<Page xmlns="http://schemas.nativescript.org/tns.xsd" navigatingTo="navigatingTo">
+    <StackLayout>
+        <Image width="100%" src="~/images/autentia.png" tap="{{onTap}}" visibility="{{imageVisibility}}"></Image>
+        <Label text="Toca la imagen y veras lo que pasa"></Label>
+        <Slider value="{{animationMs}}" minValue="250" maxValue="2000"></Slider>
+        <Switch checked="{{showImage}}"></Switch>
+        <Button text="Ya me he cansado, sacame de aqui" tap="{{getMeOutOfHere}}"></Button>
+    </StackLayout>
+</Page>
